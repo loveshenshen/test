@@ -1,0 +1,31 @@
+{
+    "name": "loveshenshen/test",
+
+    "type": "yii2-extension",
+
+    "description": "yii项目的测试",
+    "keywords": ["yii2", "redis", "async", "mailer"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/loveshenshen/test/issues",
+        "forum": "http://www.shenshen.com",//交流
+        "source": "https://github.com/loveshenshen/test"
+    },
+    "authors": [
+        {
+            "name": "Destiny",
+            "email": "956167863@qq.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-redis": "~2.0.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "loveshenshen\\test\\" : "src/"
+        }
+    }
+}
